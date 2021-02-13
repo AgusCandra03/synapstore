@@ -6,11 +6,9 @@ ECOMMERCE
 //- customer/user (nama, alamat, email, no_hp,password,
     status)
 //- foto_barang (nama_link, url, id_barang)
-//- keranjang (id_barang, jumlah_pesanan, jumlah_harga, 
-    customer_id)
+//- keranjang (id_barang, jumlah_pesanan, jumlah_harga, customer_id)
 //- Kategori (nama, deskripsi, induk_kategori)
-//- Chat/Message (id_customer, isi_pesan, tanggal_waktu, 
-    id_chat_previous, chat_status) 
+//- Chat/Message (id_customer, isi_pesan, tanggal_waktu, id_chat_previous, chat_status) 
 //- Review/rating (ulasan, customer_id, barang_id, rating)
 //- Foto Review/Rating (id_review, url_foto)
 
