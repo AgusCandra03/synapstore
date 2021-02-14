@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\BarangController;
+use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home/halo', [HomeController::class, 'halo']);
+// Route::post('/home/store', [HomeController::class, 'halo']);
+Route::resource('barang', BarangController::class);
+// Route::get('/barang/edit_dong', [BarangController::class, 'edit_dong']); 
